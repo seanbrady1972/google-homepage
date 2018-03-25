@@ -1,0 +1,41 @@
+.top-navbar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: right;
+  }
+
+.top-navbar ul li {
+  display: inline-block;
+}
+
+.main-content {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.bottom-navbar ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+
+}
+
+.bottom-navbar {
+  border-top: color:#f4f4f4;
+}
